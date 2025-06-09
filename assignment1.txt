@@ -1,0 +1,72 @@
+🔹 Assignment 1: Student Bio Card
+Objective: Practice declaring variables and using string interpolation.
+
+Instructions:
+
+1. Declare variables: firstName, lastName, age, school, and isGraduated (boolean).
+2. Log a sentence to the console like:
+"My name is [firstName] [lastName], I am [age] years old, and I study at [school]. Graduated: [true/false]"
+
+🔹 Assignment 2: Personal Introduction on a Webpage
+Objective: Combine variables and DOM manipulation.
+
+Instructions:
+
+1. Create a basic HTML page with <p> tags with IDs: fullname, school, and bio.
+
+2. In JavaScript:
+a. Declare your full name and school as variables.
+b. Use JavaScript to update the HTML with the correct values.
+c. The bio should say:
+"Hello, my name is [Fullname]. I am a student at [School]."
+
+🔹 Assignment 3: Display Book Info
+Objective: Reinforce variable use and DOM updates.
+
+Instructions:
+
+1. Create variables for a book’s title, author, yearPublished, and isAvailable.
+
+2. Display these on the page using document.getElementById().textContent.
+
+Example output in the browser:
+
+Title: The Alchemist
+
+Author: Paulo Coelho
+
+Published: 1988
+
+Available: true
+
+🔹 Assignment 4: Simple Profile Console Log
+Objective: Focus only on the console and string formatting.
+
+Instructions:
+
+1. Create and assign values to:
+
+username, email, phone, isVerified (boolean)
+2. Use console.log() to print:
+
+"User [username] can be contacted via [email] or [phone]. Verified: [isVerified]"
+
+🔹 Bonus Challenge: Make Your Own ID Card
+Objective: Combine everything learned.
+
+Instructions:
+
+1. Create a simple HTML layout with placeholders for:
+
+Fullname
+
+Age
+
+Nationality
+
+Profession
+
+In your JS file, declare variables for the above and update the DOM accordingly.
+
+
+Push the code to your GitHub and send me your GitHub repo
