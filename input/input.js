@@ -5,5 +5,5 @@ let username;
 
 enterButton.onclick = function () {
   username = input.value;
-  welcomeText.textContent = `Welcome ${username}`;
+  welcomeText.textContent = `W!elcome ${username}`;
 };
