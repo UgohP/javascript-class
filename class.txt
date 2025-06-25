@@ -1,0 +1,13 @@
+1. callback()
+2. foreach()
+3. map()
+4. filter()
+5. reduce()
+6. function expressions
+7. arrow functions
+8. objects
+9. this
+10. constructors
+11. DOM
+12. Element Selectors
+13. DOM Navigation
