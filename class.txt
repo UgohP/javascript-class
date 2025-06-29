@@ -11,3 +11,4 @@
 11. DOM
 12. Element Selectors
 13. DOM Navigation
+14. Mouse Events - click, mouseover, mouseout
