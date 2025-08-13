@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="icon" href="burger.jpg" />
+    <link rel="stylesheet" href="navbar.css" />
+  </head>
+  <body>
+      <nav id="header-nav">
+        <div class="logo-container"><h1>Navbar</h1></div>
+        <div>
+          <ul class="menu-bar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#servies">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav id="mobile-nav">
+        <div class="logo-container">
+          <h1>Navbar</h1>
+        </div>
+        <div class="mobile-menu">
+          <div class="mobile-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="mobile-links">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#servies" onclick="toggleMenu()">Services</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+    <script src="navbar.js"></script>
+  </body>
+</html>
