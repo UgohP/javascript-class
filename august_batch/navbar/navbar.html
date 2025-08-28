@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paschal Ugoh | Portfolio</title>
+    <link rel="stylesheet" href="navbar.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="header__nav-desktop">
+        <div class="logo">Paschal Ugoh</div>
+        <ul class="header__menu">
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav id="mobile__nav">
+        <div class="logo">Paschal Ugoh</div>
+        <div class="mobile__menu">
+          <div class="mobile-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="mobile-links">
+            <li><a href="#" onclick="toggleMenu()">Menu</a></li>
+            <li><a href="#" onclick="toggleMenu()">About</a></li>
+            <li><a href="#" onclick="toggleMenu()">Services</a></li>
+            <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <script src="navbar.js"></script>
+  </body>
+</html>
