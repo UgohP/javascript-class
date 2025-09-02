@@ -1,0 +1,10 @@
+Casing Methods:
+1. PascalCasing
+2. camelCasing
+3. snake_casing
+4. kebab-casing
+
+1. MyProject - classes
+2. myProject - variables and functions
+3. my_project - variables
+4. my-project - css, varables
