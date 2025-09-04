@@ -1,4 +1,5 @@
-let name = "John"
+let firstName = "Joy";
+let age = "10";
 
-console.log(`Hi, my name is ${}`)
-
+console.log(typeof age);
+// console.log(`Hi, my name is ${firstName}`);
