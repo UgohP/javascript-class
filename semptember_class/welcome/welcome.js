@@ -1,3 +1,6 @@
 const welcome = document.getElementById("welcome");
 
-welcome.textContent = "Hi";
+function submit() {
+  const name = document.getElementById("username").value;
+  welcome.textContent = `Welcome ${name}`;
+}
