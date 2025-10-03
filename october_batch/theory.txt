@@ -1,0 +1,15 @@
+CASING METHODS
+1. PascalCasing => Used for classes and objects. example: MyApp
+2. carmelCasing => Used for functions and variables. example: myApp
+3. snake_casing => using for variables (espcially in python) example: my_app
+4. kebab-casing => Used for variables. examples: my-app
+
+VARIABLE TYPES
+1. String => example "firstname", "120", 'lastname'
+
+2. Number => 10, 30, 40 etc
+2.1. float => 56.57, 47.33
+
+3. Boolean => true/false
+
+4. none/null => nothing
