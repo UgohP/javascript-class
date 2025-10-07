@@ -1,8 +1,12 @@
 const welcome = document.getElementById("welcome");
-const input = document.getElementById("input");
 const submit = document.getElementById("submit");
+const firstname = document.getElementById("firstname");
+const middlename = document.getElementById("middlename");
+const lastname = document.getElementById("lastname");
 
 submit.onclick = function () {
-  const name = input.value;
-  welcome.textContent = `Welcome ${name}`;
+  const first = firstname.value;
+  const middle = middlename.value;
+  const last = lastname.value;
+  welcome.textContent = `Welcome My firstname is ${first} and my middlename is ${middle} and my lastname is ${last}`;
 };
