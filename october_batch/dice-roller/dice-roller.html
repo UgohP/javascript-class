@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #display1 {
+        display: inline;
+      }
+      #display2 {
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dice roller</h1>
+
+    <label for="">no of dice</label>
+    <input type="number" id="user-input" />
+    <button id="btn">Roll</button>
+    <br />
+    <br />
+
+    <div id="display1"></div>
+    <div id="display2"></div>
+
+    <script>
+      const inputEl = document.querySelector("#user-input");
+      const btnEl = document.querySelector("#btn");
+      const display1 = document.querySelector("#display1");
+      const display2 = document.querySelector("#display2");
+
+      btnEl.onclick = function () {
+        const randomNumber = Math.floor(Math.random() * 6 + 1);
+        const randomNumber2 = Math.floor(Math.random() * 6 + 1);
+        if (inputEl.value == 1) {
+          
+          display1.innerHTML = `<img src="dice-images/${randomNumber}.png" alt="" width="200px" />`;
+        }
+        if (inputEl.value == 2) {
+          display2.innerHTML = `<img src="dice-images/${randomNumber}.png" alt="" width="200px" />`;
+          display1.innerHTML = `<img src="dice-images/${randomNumber2}.png" alt="" width="200px" />;`;
+        }
+      };
+    </script>
+  </body>
+</html>
