@@ -8,6 +8,8 @@ const names = [
   "Stacy",
 ];
 
+
+
 const numbers = [1, 2, 3, 4, 5];
 
 names.map((value) => console.log(value));
