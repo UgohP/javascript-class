@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>website</title>
+  </head>
+  <body>
+    <header>
+      <nav id="desktop-nav">
+        <div class="logo">Chris Thompson</div>
+        <div>
+          <ul class="nav-links">
+            <a href="#home"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#projects"><li>Projects</li></a>
+            <a href="#contact"><li>Contact</li></a>
+          </ul>
+        </div>
+      </nav>
+
+      <nav id="hamburger-nav">
+        <div class="logo">Chris Thompson</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <a href="#home"><li onclick="toggleMenu()">Home</li></a>
+            <a href="#about"><li onclick="toggleMenu()">About</li></a>
+            <a href="#projects"><li onclick="toggleMenu()">Projects</li></a>
+            <a href="#contact"><li onclick="toggleMenu()">Contact</li></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
