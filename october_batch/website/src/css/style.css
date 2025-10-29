@@ -1,4 +1,7 @@
 /*General*/
+@import url("hero.css");
+@import url("sections.css");
+
 
 *{
   margin: 0;
@@ -53,9 +56,9 @@ a:hover{
 }
 
 /*Hamburger Menu*/
-/* #hamburger-nav{
+#hamburger-nav{
   display: none;
-} */
+}
 
 .hamburger-menu{
   position: relative;
